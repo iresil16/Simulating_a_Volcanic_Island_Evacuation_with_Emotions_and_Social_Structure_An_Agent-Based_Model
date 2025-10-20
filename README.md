@@ -9,20 +9,19 @@
 
 ##  Project Overview  
 
-This project presents an **Agent-Based Model (ABM)** designed to simulate the evacuation of the population of the island of **Vulcano (Italy)** during a volcanic eruption.  
-The model integrates **emotions** and **social structures** into the agents’ decision-making processes to reproduce realistic evacuation dynamics.  
-
-To ensure environmental realism, we used the **real-world road network** of Vulcano Island.  
-The simulation was developed in **GAMA Platform (version 1.9.3)**.  
-
-During a simulation run:
-- The **Volcano agent** acts as a trigger, generating “boom” events perceived by people on the island, which alter their emotions and decisions.  
-- The **Civil Defense (CD)** agent supervises and coordinates **Law Enforcement Agents (LEAs)**, issues evacuation orders, manages evacuation resources (ferries, helicopters, ports), and monitors volcanic activity and evacuation status.  
-- The simulation ends once the civilian population and LEAs safely reach **Milazzo’s port**.  
-
-Our research aims are:
-- To **evaluate the impact of emotional and social mechanisms** on total evacuation time;  
-- To **assess the effectiveness of the broadcast alert system (IT-Alert)** compared with a point-to-point notification system in a crisis scenario.  
+This project consists in an Agent-Based Model (ABM) built to simulate the evacuation of the population
+during a volcanic eruption of the island of Vulcano (Italy). Our approach integrates emotions and social
+structures in the decision-making process of the agents. To further provide a realistic environment, we also
+used the real-world road network of Vulcano island. The model was developed in GAMA (version 1.9.3).
+During a simulation run, the volcano agent acts as a trigger with its “boom”-events that are perceived by
+people on the island and changes the decisions of agents. The Civil Defence (CD) agent manages and
+coordinates Law Enforcement Agents (LEAs), the issuing of evacuation order to civilian population and the
+evacuation resources such as ferries, helicopters and ports as well as monitoring volcanic activity and
+evacuation status. Only when the civilian population is evacuated, LEAs can leave the island and as soon as
+they reach Milazzo’s port the simulation is terminated.
+Our research aim is to assess the impact that the emotional and social engine have on the evacuation time
+and to evaluate the effectiveness of a broadcast alert system (IT-Alert) in this crisis scenario by comparing it
+to a point-to-point one.
 
 
 
