@@ -52,8 +52,8 @@ Our research aims are:
 
 - **Modeling Platform:** GAMA 1.9.3  
 - **Approach:** Agent-Based Modeling (ABM)  
-- **Focus:** Integration of emotional dynamics and social structure within the BEN architecture  
-- **Case Study:** Vulcano Island (Aeolian Islands, Italy)  
+- **Focus:** Integration of emotional dynamics and social structure using BEN architecture  
+- **Case Study:** Vulcano Island (Italy)  
 - **Main Agents:**  
   - Volcano  
   - Civil Defense (CD)  
